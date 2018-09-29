@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="tarcode">
     <title>ColorCode</title>
-    <link rel="shortcut icon" href="./img/cc.svg">
+    <link rel="shortcut icon" href="<?php echo get_bloginfo('template_directory'); ?>/img/cc.svg">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Oswald" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
@@ -91,7 +91,7 @@
       .tech-logo-container {
           height: 175px;
           position: relative;
-          
+
       }
 
       .tech-logo {
@@ -104,7 +104,7 @@
           height: calc(100vh - 55px);
           padding-top: calc(20%);
           background-color: #fafafa;
-          background-image: url("./img/bg.jpg");
+          background-image: url("<?php echo get_bloginfo('template_directory'); ?>/img/bg.jpg");
           overflow: hidden;
       }
 
@@ -128,13 +128,13 @@
           position: relative;
       }
 
-      .overlay { 
-        background:transparent; 
-        position:relative; 
-        width:100%; 
-        height:450px; /* your iframe height */ 
-        top:480px; /* your iframe height */ 
-        margin-top:-500px; /* your iframe height */ 
+      .overlay {
+        background:transparent;
+        position:relative;
+        width:100%;
+        height:450px; /* your iframe height */
+        top:480px; /* your iframe height */
+        margin-top:-500px; /* your iframe height */
         z-index: 1000;
       }
 
@@ -148,9 +148,9 @@
       }
 
       iframe {
-        border: 0; 
+        border: 0;
         width: 100%;
-        display: inline-block; 
+        display: inline-block;
         position: relative;
       }
 
@@ -189,7 +189,7 @@
         <div class='main'>
           <div class="container center">
             <h1 class='main-header white-text'>COLOR CODE</h1>
-            <br/> 
+            <br/>
             <p class='main-subheader'>
               Learn to code from a community of people who are passionate about code and teaching!
             </p>
@@ -267,12 +267,12 @@
           <p class="session-info">1-December &mdash; <b>LAST DAY OF 2018!</b></p>
           <p>Contact us below via email or Twitter to let us know.</p>
         </div>
-      
+
         <div class='row center'>
           <h3>Some of the team...</h3>
           <br />
           <div class='col s6 m3'>
-            <img src="./img/emma.png" class='circle responsive-img' />
+            <img src="<?php echo get_bloginfo('template_directory'); ?>/img/emma.png" class='circle responsive-img' />
             <br/>
             <b class="team-text orange-text text-darken-2">Emma</b>
             <br/>
@@ -281,7 +281,7 @@
             <br/>
           </div>
           <div class='col s6 m3'>
-            <img src="./img/nate.png" class='circle responsive-img' />
+            <img src="<?php echo get_bloginfo('template_directory'); ?>/img/nate.png" class='circle responsive-img' />
             <br/>
             <b class="team-text orange-text text-darken-2">Nathan</b>
             <br/>
@@ -290,7 +290,7 @@
             <br/>
           </div>
           <div class='col s6 m3'>
-            <img src="./img/tar.png" class='circle responsive-img' />
+            <img src="<?php echo get_bloginfo('template_directory'); ?>/img/tar.png" class='circle responsive-img' />
             <br/>
             <b class="team-text orange-text text-darken-2">Taariq</b>
             <br/>
@@ -299,7 +299,7 @@
             <br/>
           </div>
           <div class='col s6 m3'>
-            <img src="./img/nurha.png" class='circle responsive-img' />
+            <img src="<?php echo get_bloginfo('template_directory'); ?>/img/nurha.png" class='circle responsive-img' />
             <br/>
             <b class="team-text orange-text text-darken-2">Nurha</b>
             <br/>
@@ -308,7 +308,7 @@
             <br/>
           </div>
         </div>
-      
+
         <div id="overlay" class="overlay">
         </div>
         <iframe width="600" height="450" scrolling="no" frameBorder="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3311.070347793704!2d18.41540931521132!3d-33.91358898064382!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc675cf65a6981%3A0xe93cabfa81eda535!2sGreenpoint+Coworking!5e0!3m2!1sen!2sza!4v1503326942057"
@@ -340,13 +340,8 @@
           </div>
         </div>
       </div>
-      <div class="footer-copyright indigo darken-3">
-        <div class="container">
-          © 2017 Copyright Text
-        </div>
-      </div>
     </footer>
-    <script src="./js/particles.min.js"></script>
-    <script src="./js/app.js"></script>
+    <script src="<?php echo get_bloginfo('template_directory'); ?>/js/particles.min.js"></script>
+    <script src="<?php echo get_bloginfo('template_directory'); ?>/js/app.js"></script>
   </body>
 </html>
