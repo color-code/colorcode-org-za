@@ -253,7 +253,7 @@
             <div class="container">
               <h5>Where is ColorCode?</h5>
               <p>ColorCode is based in Cape Town. We usually meet at
-                <a href="greenpointcoworking.co.za">Greenpoint Coworking</a>, but the venue may change from time to time</p>
+                <a href="http://greenpointcoworking.co.za">Greenpoint Coworking</a>, but the venue may change from time to time</p>
             </div>
           </div>
         </div>
