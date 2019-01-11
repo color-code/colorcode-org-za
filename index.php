@@ -259,12 +259,10 @@
         </div>
         <div class='row center'>
           <h5>Upcoming Workshops</h5>
-          <p class="session-info">29-September</p>
-          <p class="session-info">6-October</p>
-          <p class="session-info">20-October</p>
-          <p class="session-info">3-November</p>
-          <p class="session-info">17-November</p>
-          <p class="session-info">1-December &mdash; <b>LAST DAY OF 2018!</b></p>
+          <p class="session-info">19-January</p>
+          <p class="session-info">2-February</p>
+          <p class="session-info">16-February</p>
+          <p class="session-info">2-March</p>
           <p>Contact us below via email or Twitter to let us know.</p>
         </div>
 
