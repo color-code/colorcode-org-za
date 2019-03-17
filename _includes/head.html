@@ -1,0 +1,156 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <meta name="description" content="">
+  <meta name="author" content="tarcode">
+  <title>ColorCode</title>
+  <link rel="shortcut icon" href="assets/cc.svg">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Oswald" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+  <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+  <script>
+      $(document).ready(function() {
+        $(".button-collapse").sideNav({
+          closeOnClick: true,
+          menuWidth: 100
+        });
+
+        $("#overlay").click(() => {
+          document.getElementById('overlay').style.pointerEvents = 'none'
+        })
+      })
+  </script>
+  <style>
+    body {
+      font-family: 'Josefin Sans', sans-serif;
+      background-color: #FAFAFA;
+    }
+    .xlText {
+      font-size: 80px;
+    }
+    .actionBtn {
+      vertical-align: middle;
+      font-size: 20px;
+      margin-top: 10px;
+    }
+    #logo {
+      font-weight: bold;
+    }
+    #message {
+      font-size: 27px;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      font-family: 'Oswald', sans-serif;
+    }
+    #particles-js {
+      position: absolute;
+      z-index: 1;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+    }
+
+    .fade-enter {
+      opacity: 0;
+      z-index: 1;
+    }
+
+    .fade-enter.fade-enter-active {
+      opacity: 1;
+      transition: opacity 250ms ease-in;
+    }
+
+    #body {
+        margin: 0;
+        padding: 0;
+    }
+
+    main {
+        min-height: calc(100vh - 370px);
+    }
+
+    nav {
+        height: 64px;
+    }
+
+
+    .logo {
+        display: block;
+        height: 56px;
+        margin: 4px 4px;
+        z-index: 1001;
+    }
+
+
+    .tech-logo-container {
+        height: 175px;
+        position: relative;
+
+    }
+
+    .tech-logo {
+        height: 70%;
+    }
+
+    .main {
+        background-size: cover;
+        margin-top: 0;
+        height: calc(100vh - 55px);
+        padding-top: calc(20%);
+        background-color: #fafafa;
+        background-image: url("assets/bg.jpg");
+        overflow: hidden;
+    }
+
+    .main-header {
+        font-size: 7em;
+        margin: 0;
+    }
+
+    .main-subheader {
+        font-size: 2em;
+        color: #FAFAFA;
+    }
+
+    .session-info {
+      font-size: larger;
+    }
+
+    .home-img {
+        width: 200px;
+        padding-bottom: 20px;
+        position: relative;
+    }
+
+    .overlay {
+      background:transparent;
+      position:relative;
+      width:100%;
+      height:450px; /* your iframe height */
+      top:480px; /* your iframe height */
+      margin-top:-500px; /* your iframe height */
+      z-index: 1000;
+    }
+
+    .team-text {
+    font-size: 20px;
+    line-height: 24px;
+
+    }
+    footer {
+        padding-bottom: 0px;
+    }
+
+    iframe {
+      border: 0;
+      width: 100%;
+      display: inline-block;
+      position: relative;
+    }
+
+  </style>
+</head>

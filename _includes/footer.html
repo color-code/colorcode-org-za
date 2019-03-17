@@ -1,0 +1,28 @@
+<footer class="page-footer indigo darken-3">
+    <div class="container">
+    <div class="row">
+        <div class="col l6 s12">
+        <h5 class="white-text">Colorcode</h5>
+        <p class="grey-text text-lighten-4">{{- site.description | escape -}}</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+        <h5 class="white-text">Links/Contact Us</h5>
+        {%- if site.email -%}
+        <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+        {%- endif -%}
+
+        {%- if site.social.facebook -%}
+        <li><a class="u-email" href="https://facebook.com/{{ site.social.facebook | cgi_escape | escape }}">Facebook</a></li>
+        {%- endif -%}
+
+        {%- if site.social.twitter -%}
+        <li><a class="u-email" href="https://twitter.com/{{ site.social.twitter | cgi_escape | escape }}">Twitter</a></li>
+        {%- endif -%}
+
+        {%- if site.social.instagram -%}
+        <li><a class="u-email" href="https://instagram.com/{{ site.social.instagram | cgi_escape | escape }}">Instagram</a></li>
+        {%- endif -%}
+        </div>
+    </div>
+    </div>
+</footer>

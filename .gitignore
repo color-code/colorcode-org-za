@@ -28,3 +28,9 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+
+*.gem
+.bundle
+.sass-cache
+_site
+Gemfile.lock
