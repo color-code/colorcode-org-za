@@ -34,3 +34,7 @@ Temporary Items
 .sass-cache
 _site
 Gemfile.lock
+
+# IntelliJ
+.idea/
+*.iml
